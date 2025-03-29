@@ -13,6 +13,7 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.pew.eos_dependencies"
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
